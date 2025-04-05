@@ -144,7 +144,7 @@
             .attr("y", -50)
             .style("text-anchor", "middle")
             .style("font-size", "14px")
-            .text("Environmental Progress (kg CO₂e)");
+            .text("GHG Emissions (kg CO₂e per capita)");
 
         svg2.append("text")
             .attr("x", width / 2)
@@ -152,7 +152,7 @@
             .attr("text-anchor", "middle")
             .style("font-size", "18px")
             .style("font-weight", "bold")
-            .text("Greenhouse Gas Emissions Over Time");
+            .text("Greenhouse Gas Emissions Per Capita Over Time");
 
         const countryTotals = new Map(
             countryCodes.map(code => {
