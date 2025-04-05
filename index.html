@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMSC471 A3 Edward Song</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="tooltip" style="display:none"></div>
+    <h2>CMSC471 A3 Edward Song</h2>
+    <h3>White Hat Visualization</h3>
+    <div id="whitehat-dropdown" style="margin-bottom: 1em;">
+        <div id="checkbox-container-white"
+            style="max-height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 5px; width: 200px;"></div>
+    </div>
+    <p style="color: #a00; font-size: 12px; max-width: 350px;">
+        * This country contains missing data, which may skew results.
+    </p>
+    <p style="font-size: 15px; max-width: 400px;">
+        Select up to 5 countries for the best visualization results.
+    </p>
+    <div id="vis"></div>
+
+    <h3>Black Hat Visualization</h3>
+    <div id="blackhat-dropdown" style="margin-bottom: 1em;">
+        <strong>Select Countries:</strong><br>
+        <div id="checkbox-container-black"
+            style="max-height: 150px; overflow-y: auto; border: 1px solid #ccc; padding: 5px; width: 200px;"></div>
+    </div>
+    <div id="vis2"></div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/script_black.js"></script>
+</body>
+
+
+</html>
