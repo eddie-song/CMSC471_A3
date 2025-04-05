@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, sans-serif;
+    width: screen;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 2rem auto;
+}
+
+#vis svg {
+    margin: 2rem 0;
+    border: 1px solid #ccc;
+}
+
+#vis2 svg {
+    margin: 2rem 0;
+    border: 1px solid #ccc;
+}
