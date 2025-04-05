@@ -180,7 +180,7 @@
             .attr("text-anchor", "middle")
             .style("font-size", "18px")
             .style("font-weight", "bold")
-            .text("Greenhouse Gas Emissions Over Time");
+            .text("Greenhouse Gas Emissions Per Capita Over Time");
 
         const color = d3.scaleOrdinal(d3.schemeCategory10);
         const line = d3.line()
